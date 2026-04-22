@@ -6,7 +6,7 @@
 - **Team:** CHY Singmey, KEN Sreyleap, KIN Kimcheng, SORN Vitou
 
 ## About
-A web app that helps users explore Cambodia's 25 provinces, check real-time weather, and plan trips with a personal travel planner.
+A web application that helps users explore Cambodia's 25 provinces, check real-time weather, and plan trips with a personal travel planner.
 
 ## Key Features
 - Browse and search provinces

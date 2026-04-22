@@ -14,7 +14,7 @@ A web application that helps users explore Cambodia's 25 provinces, check real-t
 - Confirm trip planner (up to 5 days)
 - Save, edit, and delete trips
 - User login/signup with localStorage
-- Fully responsive design
+- Responsive design
 
 ## Technologies
 HTML5, CSS3, JavaScript (ES6+), Fetch API, OpenWeather API, LocalStorage

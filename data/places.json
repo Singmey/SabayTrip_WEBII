@@ -1,0 +1,957 @@
+{
+    "places": [
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Royal Palace",
+            "img": "https://www.novotelphnompenhbkk1.com/wp-content/uploads/sites/53/2023/08/royal-palace-1920x1200.jpg",
+            "desc": "Iconic royal residence with Khmer architecture."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "National Museum",
+            "img": "https://image-tc.galaxy.tf/wijpeg-87c83dri3kglj836kubeiybcf/the-national-museum-3.jpg",
+            "desc": "Home to Cambodia's finest artifacts."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Independence Monument",
+            "img": "https://d122axpxm39woi.cloudfront.net/images/destinations/origin/60403ac667573.jpg",
+            "desc": "A majestic lotus-shaped tower commemorating Cambodia's liberation from French rule."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Wat Phnom",
+            "img": "https://files.intocambodia.org/wp-content/uploads/2024/08/10143531/Wat-Phnom.jpg",
+            "desc": "Historic hilltop temple and city landmark."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Toul Sleng Genocide Museum",
+            "img": "https://cdn.britannica.com/20/255620-050-CF79977D/phnom-penh-cambodia-tuol-sleng-genocide-museum.jpg",
+            "desc": "A former high school turned prison that serves as a haunting memorial to the Khmer Rouge era."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Choeung Ek Genocidal Center",
+            "img": "https://traveltheworldpages.com/wp-content/uploads/2024/03/killing-tree-choeung-ek.jpg",
+            "desc": "A peaceful yet somber memorial site located at the former 'Killing Fields' outside the city."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Sosoro Museum",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/da/95/19/independence-era.jpg?w=1200&h=-1&s=1",
+            "desc": "An interactive museum showcasing 2,000 years of Cambodia's monetary and economic history."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Bassac Lane",
+            "img": "https://cambodiabucketlist.com/wp-content/uploads/2025/04/Bassac-Lane-and-Bassac-Street-in-Phnom-Penh-Cambodia-Asia.jpeg",
+            "desc": "A trendy hidden alleyway famous for its vibrant cocktail bars and boutique eateries."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Sunset Cruise",
+            "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/87/c6/3f.jpg",
+            "desc": "A relaxing boat journey along the Tonle Sap and Mekong rivers to enjoy the city's evening skyline."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Chaktomuk Walk Street",
+            "img": "https://www.khmertimeskh.com/wp-content/uploads/2025/06/503396291_1241942550632753_4738359283521022534_n.jpg",
+            "desc": "A popular pedestrian zone located along the Sisowath Quay Riverside which is a vibrant hub of street foods, handicrafts, performances, and crowds."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Central Market",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/2/26/Aerial_view_of_Phnom_Penh%27s_Central_Market_%28September_2021%29.jpg",
+            "desc": "The Central Market of Phnom Penh, is a large market constructed in 1937 in the shape of a dome with four arms branching out into vast hallways with countless stalls of goods."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Russian Market",
+            "img": "https://d122axpxm39woi.cloudfront.net/images/destinations/origin/64be1fb570dee.jpg",
+            "desc": "A bustling local bazaar famous for souvenir hunting, clothing, and authentic street food."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Aeon Mall Phnom Penh",
+            "img": "https://www.aeonmallcambodia.com/wp-content/uploads/2023/11/View-3-Edit-scaled.jpg",
+            "desc": "A modern shopping complex offering international brands, diverse dining, and entertainment."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Garden City Water Park",
+            "img": "https://gardencitywaterpark.com/wp-content/uploads/2022/11/gardencity-waterpark-image-1.jpg",
+            "desc": "A large, family-friendly destination featuring thrilling slides and wave pools."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Phnom Penh Safari",
+            "img": "https://www.shutterstock.com/editorial/image-editorial/OfT5c552N9z1c1x7NjgxMA==/deers-displayed-phnom-penh-safari-world-cambodia-1500w-9725204b.jpg",
+            "desc": "A wildlife park offering animal encounters and live shows in a natural setting."
+        },
+        {
+            "provinceName": "Phnom Penh",
+            "name": "Kol Tor Teung Pagoda",
+            "img": "https://english.news.cn/20240417/b5a236e96fa545ca91683de34983c705/20240417b5a236e96fa545ca91683de34983c705_ChkhgeE007015_20240417_CBMFN0A001.jpg",
+            "desc": "A beautiful and serene Buddhist temple known for its intricate carvings and peaceful atmosphere."
+        },
+
+        {
+            "provinceName": "Siem Reap",
+            "name": "Angkor Wat Temple",
+            "img": "https://www.bortonoverseas.com/wp-content/uploads/Angkor-Wat-Main.jpg",
+            "desc": "The world's largest religious monument and a masterpiece of Khmer architecture, famous for its breathtaking sunrise views and intricate bas-reliefs."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Bayon Temple",
+            "img": "https://grandbayon.com/wp-content/uploads/2018/04/Bayon-Temple.jpg",
+            "desc": "Located at the heart of Angkor Thom, this mesmerizing temple is renowned for its 54 gothic towers decorated with over 200 giant smiling stone faces."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Ta Prohm Temple",
+            "img": "https://afar.brightspotcdn.com/dims4/default/620c568/2147483647/strip/false/crop/2268x1417+0+0/resize/1486x928!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2F3f%2F4e%2F08469213b925d84bf4926ac48370%2Foriginal-cb74ac92113b1509421831604ecb008b.jpg",
+            "desc": "Left to the elements, this iconic 'Tomb Raider' temple is famously swallowed by massive jungle silk-cotton trees and strangler figs."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Preah Khan Temple",
+            "img": "https://d122axpxm39woi.cloudfront.net/images/destinations/origin/5d26fbd594c51.png",
+            "desc": "A sprawling monastic complex featuring corridors overgrown with trees and intricate carvings."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Neak Poan Temple",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Neakpeancentralpond2014.jpg",
+            "desc": "A unique island temple set in a man-made pond, once used for medicinal rituals."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Pre Rup Temple",
+            "img": "https://d37rmf1ynyg9aw.cloudfront.net/fit-in/1280x1280/data/v4/pois/cc6477af-06af-4fc0-ab59-0de531f3879b/resources/107301.jpg",
+            "desc": "A grand pyramid-shaped brick temple that offers spectacular views of the jungle at sunset."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Beng Mealea Temple",
+            "img": "https://i0.wp.com/helloangkor.com/wp-content/uploads/2023/07/HA5D9211.jpg?fit=1440%2C960&ssl=1",
+            "desc": "An atmospheric, unrestored jungle temple that gives visitors a 'lost city' adventure feel."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Banteay Srei Temple",
+            "img": "https://files.intocambodia.org/wp-content/uploads/2024/08/10123701/Banteay-Srei-Temple.jpg",
+            "desc": "A 10th-century Hindu temple celebrated for its miniature scale and pink sandstone carvings."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Banteay Samre",
+            "img": "https://apsaraauthority.gov.kh/wp-content/uploads/2023/11/5-2.jpg",
+            "desc": "A well-preserved temple featuring the same style as Angkor Wat without the heavy crowds."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Phimeanakas Temple",
+            "img": "https://media.istockphoto.com/id/1073749102/es/foto/siem-reap-camboya-view-de-13-de-diciembre-del-templo-de-baphuon-en-angkor-wat-complejo-es.jpg?s=612x612&w=0&k=20&c=eVSKkANcvY0euPFCzyzYFOG7iezouDsrdb64cw3K3NA=",
+            "desc": "A Hindu temple in the shape of a tiered pyramid located within ancient Royal Palace walls."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Terrace of the Elephants",
+            "img": "https://www.travelbeginsat40.com/wp-content/uploads/2025/03/63.jpg.webp",
+            "desc": "An impressive 300-meter platform adorned with carved elephants used for ceremonies."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Kulen Mountain",
+            "img": "https://withlocals-com-res.cloudinary.com/image/upload/w_412,h_290,c_fill,g_auto,q_auto,dpr_3.0,f_auto/ab0ef412f747c66ce0f97820d8018626",
+            "desc": "A sacred site featuring a massive reclining Buddha, riverbed carvings, and waterfalls."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Bakheng Mountain Hill",
+            "img": "https://files.intocambodia.org/wp-content/uploads/2024/08/17082608/Bakheng-Temple-3.jpg",
+            "desc": "The premier spot for sunset views overlooking the distant towers of Angkor Wat."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Pub Street",
+            "img": "https://d122axpxm39woi.cloudfront.net/images/destinations/origin/5fa25bf66eed9.jpg",
+            "desc": "Nightlife hub with food and bars."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Kampong Phluk Floating Village",
+            "img": "https://asiapioneertravel.com/wp-content/uploads/2025/03/siem-reap-floating-village-3.jpg",
+            "desc": "A unique community of three stilted villages built on the Tonle Sap lake, about 16 km southeast of Siem Reap, Cambodia."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Preah Dak Village",
+            "img": "https://visitlocaltravel.com/blog/wp-content/uploads/2023/12/Palm-Cake-Preah-Dak-Village.png",
+            "desc": "Renowned as a 'One Village One Product' destination which famous for palm cakes (Num Tnaot), fresh Num Banh Chok (Khmer noodles), and local crafts."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "APOPO Visit Center",
+            "img": "https://apopo.org/wp-content/uploads/2022/03/HeroRAT-Ronin-and-handler-Sokun_8535.jpeg",
+            "desc": "An inspiring center where 'HeroRATs' are trained to detect landmines and save lives."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Angkor National Museum",
+            "img": "https://angkornationalmuseum.com/wp-content/uploads/2022/12/Gallery-1000-Buddha-2023-1-1.jpg",
+            "desc": "A world-class museum using interactive technology to explain the golden era of the Khmer Empire."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Artisans Silk Farm",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/8d/47/4f/angkor-silk-farm-workshop.jpg?w=1200&h=-1&s=1",
+            "desc": "An educational site where visitors watch the entire process of traditional silk production."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Angkor's Zipline",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/be/9a/be/a-lady-ziplne-inside.jpg?w=1200&h=-1&s=1",
+            "desc": "An eco-adventure through the rainforest canopy located within the historic Angkor Park."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Local Cuisine Classes",
+            "img": "https://changkrankhmer.opte.io/wp-content/uploads/sites/3113/2019/05/learn-khmer-cooking-siem-reap.jpg",
+            "desc": "A hands-on experience learning the secrets of traditional Khmer dishes like Amok and Lok Lak."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Phare, The Cambodian Circus",
+            "img": "https://www.bordersofadventure.com/wp-content/uploads/2021/05/Phare-Circus-Siem-Reap-Timothy-Gibson.jpg",
+            "desc": "A high-energy show combining theater and music to tell modern Cambodian stories."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Angkor Wildlife & Aquarium",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/a2/f0/c1/aquarium-in-cambodia.jpg?w=1200&h=900&s=1",
+            "desc": "A massive conservation park featuring rare freshwater fish and majestic land animals."
+        },
+        {
+            "provinceName": "Siem Reap",
+            "name": "Apsara Theatre",
+            "img": "https://angkorvillagehotel.asia/wp-content/uploads/2022/09/apsara-dance-1.jpg",
+            "desc": "An elegant venue to enjoy traditional Khmer dance performances paired with a classic dinner."
+        },
+
+        {
+            "provinceName": "Preah Vihear",
+            "name": "Preah Vihear Temple",
+            "img": "https://haivenu-vietnam.com/wp-content/uploads/2024/07/Preah-Vihear-Temple.png",
+            "desc": "A stunning clifftop Hindu temple offering breathtaking views from the border."
+        },
+        {
+            "provinceName": "Preah Vihear",
+            "name": "Koh Ker Temple",
+            "img": "https://www.fodors.com/wp-content/uploads/2024/02/3-Shutterstock-170042066.jpg",
+            "desc": "A remote archaeological site dominated by a massive seven-tiered pyramid hidden in the forest."
+        },
+        {
+            "provinceName": "Preah Vihear",
+            "name": "Preah Khan Kompong Svay",
+            "img": "https://www.christravelblog.com/wp-content/uploads/2020/01/statues-cambodia-preah-khan-de-kompong-svay-day-trip-from-siem-reap-a-real-jungle-temple-IMG_0118-1024x659.jpg",
+            "desc": "One of Cambodia's largest and most remote temple complexes, perfect for exploration."
+        },
+        {
+            "provinceName": "Preah Vihear",
+            "name": "BeTreed Adventures",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/54/09/e5/treehouse.jpg?w=1200&h=1200&s=1",
+            "desc": "An eco-tourism destination offering treehouse stays and ziplining in a protected forest."
+        },
+        {
+            "provinceName": "Preah Vihear",
+            "name": "Preah Nimith Waterfall",
+            "img": "https://i0.wp.com/helloangkor.com/wp-content/uploads/2023/04/HA5D7467.jpg?resize=1024%2C683&ssl=1",
+            "desc": "A powerful and wide waterfall on the Mekong River near the Laos border."
+        },
+        {
+            "provinceName": "Preah Vihear",
+            "name": "Kulen Prumep Wildlife Sanctuary",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/b5/4c/bf/caption.jpg?w=1200&h=-1&s=1",
+            "desc": "A vast protected area home to rare birds and traditional community-based ecotourism."
+        },
+
+        {
+            "provinceName": "Battambang",
+            "name": "Bamboo Train",
+            "img": "https://cdn.realisticasia.com/photos/Bamboo%20Train%20Battambang/3.jpg",
+            "desc": "Experience a fun and unique ride on a 'norry'—a handmade bamboo platform that skims along traditional railway tracks."
+        },
+        {
+            "provinceName": "Battambang",
+            "name": "Phnom Sampeau",
+            "img": "https://i0.wp.com/helloangkor.com/wp-content/uploads/2021/01/IMG_20220204_163946.jpg?resize=1149%2C860&ssl=1",
+            "desc": "A stunning mountain site featuring hilltop pagodas, historic caves, and panoramic views of the surrounding countryside."
+        },
+        {
+            "provinceName": "Battambang",
+            "name": "Bat Cave",
+            "img": "https://www.indochinavoyages.com/wp-content/uploads/2015/04/battambang-itinerary.jpg",
+            "desc": "Witness a spectacular natural phenomenon as millions of bats emerge from the caves in a massive, flowing stream at sunset."
+        },
+        {
+            "provinceName": "Battambang",
+            "name": "Colonial Buildings",
+            "img": "https://www.gocambodia.tours/wp-content/uploads/2024/06/Colonial-Architecture-in-Battambang-exploration-with-cambodia-trips-3.jpg",
+            "desc": "Stroll through the downtown area to admire one of the best-preserved collections of French-era colonial architecture in Cambodia."
+        },
+        {
+            "provinceName": "Battambang",
+            "name": "Romcheik 5 Art Space & Cafe",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/37/ff/c2/entrance-of-the-museum.jpg?w=1200&h=-1&s=1",
+            "desc": "A vibrant creative hub that serves as the heart of Battambang's contemporary local art scene."
+        },
+        {
+            "provinceName": "Battambang",
+            "name": "Human Gallery",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c8/f9/88/human-gallery.jpg?w=1200&h=-1&s=1",
+            "desc": "A poignant photography gallery showcasing expressive portraits that highlight the humanity and stories of local residents."
+        },
+        {
+            "provinceName": "Battambang",
+            "name": "Wat Banan Temple",
+            "img": "https://helloangkor.com/wp-content/uploads/2023/05/IMG_20220206_092837.jpg",
+            "desc": "An 11th-century hilltop temple complex that bears a striking architectural resemblance to the famous Angkor Wat."
+        },
+        {
+            "provinceName": "Battambang",
+            "name": "Wat Ek Phnom",
+            "img": "https://i0.wp.com/helloangkor.com/wp-content/uploads/2023/05/IMG_20220204_110628-1.jpg?resize=1024%2C766&ssl=1",
+            "desc": "A beautiful 11th-century temple ruin featuring intricate sandstone carvings and a massive seated Buddha statue."
+        },
+        {
+            "provinceName": "Battambang",
+            "name": "Ta Dumbong Kro Aung Statue",
+            "img": "https://www.asiakingtravel.com/images/thumbs/2025/05/20099/484485091-954347766728937-8962258597941090426-n_1296x730xcrop.webp",
+            "desc": "An iconic landmark statue depicting the legendary 'stick king' who is central to the history and folklore of the city."
+        },
+
+        {
+            "provinceName": "Sihanoukville",
+            "name": "Koh Rong",
+            "img": "https://www.reiseprofi.com/wp-content/bilder/long-set-beach-koh-rong.jpg",
+            "desc": "A stunning island paradise famous for its crystal-clear turquoise waters, vibrant coral reefs, and pristine white sandy beaches."
+        },
+        {
+            "provinceName": "Sihanoukville",
+            "name": "Koh Rong Samloem",
+            "img": "https://content.api.news/v3/images/bin/cdfa121e49ecda4f7b7382a879d54b68",
+            "desc": "A tranquil and secluded island escape, perfect for travelers seeking peaceful bays and a relaxed, natural atmosphere."
+        },
+        {
+            "provinceName": "Sihanoukville",
+            "name": "Otres Beach",
+            "img": "https://www.ourglobetrotters.com/wp-content/uploads/2021/01/Destinations-Cambodia-Otres-Beach.jpg",
+            "desc": "A laid-back and quiet coastal stretch, known for its friendly beach bars and beautiful, gentle sunsets."
+        },
+        {
+            "provinceName": "Sihanoukville",
+            "name": "Serendipity Beach",
+            "img": "https://mysimplesojourn.com/wp-content/uploads/2018/02/People-at-Serendipity-beach-Cambodia.jpg",
+            "desc": "The city's most popular and lively beachfront, buzzing with restaurants, nightlife, and energetic crowds."
+        },
+        {
+            "provinceName": "Sihanoukville",
+            "name": "Sunset Beach",
+            "img": "https://i0.wp.com/mydustyflipflops.com/wp-content/uploads/2020/07/sunset-beach.jpg?fit=1200%2C900&ssl=1",
+            "desc": "A hidden gem tucked away on Koh Rong Samloem, offering the perfect secluded spot to watch the sun dip below the horizon."
+        },
+        {
+            "provinceName": "Sihanoukville",
+            "name": "Independence Beach",
+            "img": "https://www.greeneratravel.com/userfiles/850beachinde.jpg",
+            "desc": "A clean and well-maintained beach that offers a quieter, more refined seaside experience compared to the central hubs."
+        },
+        {
+            "provinceName": "Sihanoukville",
+            "name": "Ream National Park",
+            "img": "https://evivatour.com/wp-content/uploads/2021/09/Ream-National-Park-near-Sihanoukville-1000x565.jpg",
+            "desc": "A vast protected sanctuary consisting of lush mangroves, tropical forests, and diverse coastal wildlife."
+        },
+        {
+            "provinceName": "Sihanoukville",
+            "name": "Kbal Chhay Waterfall",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/KbalChhay.JPG",
+            "desc": "A refreshing series of cascading waterfalls surrounded by lush greenery, perfect for a picnic or a cool afternoon swim."
+        },
+        {
+            "provinceName": "Sihanoukville",
+            "name": "Phsar Leu Market",
+            "img": "https://www.travelbeginsat40.com/wp-content/uploads/2025/03/1_Phsar-Leu-5.jpg",
+            "desc": "The largest traditional market in the city, offering a bustling atmosphere filled with fresh produce, local snacks, and goods."
+        },
+        {
+            "provinceName": "Sihanoukville",
+            "name": "7Deuce 72 Poker",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a6/d1/53/24.jpg?w=1200&h=-1&s=1",
+            "desc": "A popular social spot for gaming and entertainment, providing a lively environment for visitors and locals alike."
+        },
+
+        {
+            "provinceName": "Kampot",
+            "name": "Bokor National Park",
+            "img": "https://www.asiapropertyawards.com/wp-content/uploads/2024/06/shutterstock_1707022465-scaled.jpg",
+            "desc": "A sprawling protected area featuring a cool mountain climate, historic colonial ruins, and breathtaking cliffside views."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "Anlung Pring Community",
+            "img": "https://lh6.googleusercontent.com/proxy/W4b4HZv6FZszjCWNAwMMy4Al5sKNPp3D8KAv1xacfhd8sQagNtyd_xRrD1Y5iwvTk9QMyK_8dPZtXKp9Uimehk4A3JYK1o7Cj7QNvjGJQVV7K6pAVVY5g-ru",
+            "desc": "An eco-tourism site dedicated to the conservation of Sarus Cranes and traditional local livelihoods."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "La Plantation",
+            "img": "https://www.lightfoottravel.com/cdn-cgi/image/width=,height=,quality=85,format=webp/https://lft-dev-images.s3.eu-west-1.amazonaws.com/public/article/kampot-pepper-farm.jpg",
+            "desc": "An award-winning organic farm where you can learn about the history and cultivation of world-famous Kampot pepper."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "Kampot Riverside",
+            "img": "https://shelleytravel.wordpress.com/wp-content/uploads/2011/05/p1110782.jpg",
+            "desc": "The scenic heart of the town, perfect for sunset strolls, firefly cruises, and relaxing waterfront dining."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "Salt Fields",
+            "img": "https://cdn.kiripost.com/static/images/Hongseng_Salt_flelds_019.2e16d0ba.fill-960x540.jpg",
+            "desc": "Expansive coastal flats where sea water is evaporated to produce high-quality natural sea salt using traditional methods."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "Durian Farm Kampot",
+            "img": "https://www.siemreaptaxidrivertours.com/wp-content/uploads/2024/02/DURIAN-PLANTATIONS-1024x576.jpeg",
+            "desc": "Lush plantations showcasing the region's most famous fruit, known for its distinctively rich and creamy flavor."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "Tada Waterfall",
+            "img": "https://www.travelbeginsat40.com/wp-content/uploads/2025/03/JO-Kampot-2021-25.jpg",
+            "desc": "A refreshing natural escape featuring cascading waters and cool swimming pools surrounded by dense forest."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "Teuk Chou Rapids",
+            "img": "https://helloangkor.com/wp-content/uploads/2019/05/standard_sl-teuk-chhou-rapids-pic2.jpg",
+            "desc": "A popular riverside retreat where locals and travelers gather to picnic and swim in the flowing currents."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "Popokvil Waterfall",
+            "img": "https://www.travelbeginsat40.com/wp-content/uploads/2025/03/JO-Bokor-2021-10.jpg",
+            "desc": "A majestic two-tier waterfall located on Bokor Mountain, often shrouded in a beautiful misty cloud."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "Arcadia Waterpark",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/93/f4/f7/the-rope-swing-and-blob.jpg?w=1200&h=-1&s=1",
+            "desc": "An adventurous riverside park featuring giant slides, blobbing, and various water sports for thrill-seekers."
+        },
+        {
+            "provinceName": "Kampot",
+            "name": "Potshots",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/c1/e3/78/potshots.jpg?w=1200&h=-1&s=1",
+            "desc": "A vibrant riverside bar and social spot known for its fun atmosphere, games, and great views of the Kampot river."
+        },
+        {
+            "provinceName": "Kep",
+            "name": "Kep Beach",
+            "img": "https://www.bookaway.com/blog/wp-content/uploads/2022/12/kep-feature.jpg",
+            "desc": "A peaceful, quiet coastal beach lined with swaying trees, perfect for a relaxing seaside stroll."
+        },
+        {
+            "provinceName": "Kep",
+            "name": "Koh Tonsay",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/0a/f5/76/caption.jpg?w=800&h=800&s=1",
+            "desc": "Also known as Rabbit Island, this destination offers rustic island life, scenic hiking trails, and beautiful ocean views."
+        },
+        {
+            "provinceName": "Kep",
+            "name": "Kep Butterfly Farm",
+            "img": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/01/Kep-Butterfly-Garden-2.png",
+            "desc": "A charming nature attraction where visitors can walk through a lush garden filled with diverse local butterfly species."
+        },
+        {
+            "provinceName": "Kep",
+            "name": "Flying Dog Farm",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/4e/b6/79/img-20190713-112233-largejpg.jpg?w=700&h=400&s=1",
+            "desc": "A serene, family-run farm that provides a relaxing nature experience away from the busier tourist spots."
+        },
+        {
+            "provinceName": "Kep",
+            "name": "River Cruise Tour",
+            "img": "https://www.cambotours.com/userfiles/river-cruise-sunset-day-tour.jpg",
+            "desc": "A scenic boat tour offering a relaxing way to enjoy the coastal breezes and see the town from the water."
+        },
+        {
+            "provinceName": "Kep",
+            "name": "Kampong Trach Mountain Cave",
+            "img": "https://www.cambotours.com/userfiles/thumbs/kampong-trach-kampot.jpg",
+            "desc": "A mystical cave complex nestled within limestone mountains, featuring hidden shrines and natural rock formations."
+        },
+        {
+            "provinceName": "Kep",
+            "name": "Crab Market",
+            "img": "https://ctp.r24k.app/wp-content/uploads/2024/07/nKPmVn76qM565wJDj9bz.jpg",
+            "desc": "A vibrant riverside market famous for fresh blue crab and authentic local seafood dining experiences."
+        },
+        {
+            "provinceName": "Kratie",
+            "name": "Dolphin Kayaking Adventures",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/35/79/39/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
+            "desc": "An eco-friendly way to navigate the Mekong and catch a rare glimpse of the endangered Irrawaddy dolphins in their natural habitat."
+        },
+        {
+            "provinceName": "Kratie",
+            "name": "Mekong River",
+            "img": "https://www.mondulkiriproject.org/wp-content/uploads/2019/06/Kratie-dolphin.jpg",
+            "desc": "The lifeblood of the region, offering stunning riverside views and spectacular sunsets over the wide, flowing waters."
+        },
+        {
+            "provinceName": "Kratie",
+            "name": "Koh Trong",
+            "img": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/02/Koh-Trong.png",
+            "desc": "A peaceful island in the middle of the Mekong where visitors can explore pomelo orchards and experience a traditional rural lifestyle by bicycle."
+        },
+        {
+            "provinceName": "Kratie",
+            "name": "100 Columns Pagodas",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/e6/6d/dc/photo0jpg.jpg?w=1200&h=-1&s=1",
+            "desc": "A significant historical and religious site known for its beautiful architecture and its connection to local legends."
+        },
+        {
+            "provinceName": "Koh Kong",
+            "name": "Cardamom Mountains",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/0/07/Khao_Khitchakut_National_Park_Thailand.jpg",
+            "desc": "One of Southeast Asia's largest remaining rainforests, offering a rugged paradise for trekking and rare wildlife spotting."
+        },
+        {
+            "provinceName": "Koh Kong",
+            "name": "Tatai Waterfall",
+            "img": "https://www.travelbeginsat40.com/wp-content/uploads/2025/03/JO-Tatai-16.jpg.webp",
+            "desc": "A stunning semi-circular waterfall located along the Tatai River, perfect for a refreshing swim in the heart of the jungle."
+        },
+        {
+            "provinceName": "Koh Kong",
+            "name": "Mangrove Forest",
+            "img": "https://theungracefulguide.com/wp-content/uploads/2023/08/Koh-Kong-Cambodia-1.webp",
+            "desc": "An expansive coastal sanctuary where you can walk through raised boardwalks or kayak through winding emerald waterways."
+        },
+        {
+            "provinceName": "Koh Kong",
+            "name": "Koh Kong Island",
+            "img": "https://avytravel.com/wp-content/uploads/2025/01/DJI_0699-scaled.jpg",
+            "desc": "An untouched gem featuring long stretches of white sand and crystal-clear water, ideal for those seeking a true island escape."
+        },
+        {
+            "provinceName": "Koh Kong",
+            "name": "River Safari",
+            "img": "https://www.techoairport.com.kh/tia-backend/locators/1754029535335-Picture2-md.png",
+            "desc": "A peaceful boat journey that takes you deep into the wilderness to witness the region's diverse ecosystem and natural beauty."
+        },
+        {
+            "provinceName": "Mondulkiri",
+            "name": "Bou Sra Waterfall",
+            "img": "https://www.asiakingtravel.com/cuploads/files/image-20241203081127-1.jpeg",
+            "desc": "Cambodia's most famous triple-tiered waterfall, offering a majestic display of nature within a lush, tropical forest setting."
+        },
+        {
+            "provinceName": "Mondulkiri",
+            "name": "Elephant Sanctuary",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/79/4e/52/sanctuary-elephants-bathing.jpg?w=1200&h=1200&s=1",
+            "desc": "A dedicated conservation area where visitors can observe rescued elephants roaming freely and learning about ethical wildlife protection."
+        },
+        {
+            "provinceName": "Mondulkiri",
+            "name": "Sen Monorom",
+            "img": "https://www.asiakingtravel.com/cuploads/files/Sen-Monorom-2.jpg",
+            "desc": "A charming highland town known for its cool climate, pine trees, and as the gateway to Cambodia's eastern wilderness."
+        },
+        {
+            "provinceName": "Mondulkiri",
+            "name": "Hill Views",
+            "img": "https://i0.wp.com/www.cambodialifestyle.com/wp-content/uploads/2024/04/Mondulkiri5.jpg?fit=1024%2C670&ssl=1",
+            "desc": "Breathtaking panoramic vistas of rolling green hills often referred to as the 'Switzerland of Cambodia' for their unique landscape."
+        },
+        {
+            "provinceName": "Mondulkiri",
+            "name": "Jungle Trekking",
+            "img": "https://www.cambodiaacountryfullofcharm.com/wp-content/uploads/2023/08/43498471_346345842775193_2210623055980396544_n.jpg",
+            "desc": "An immersive journey through dense forests and ethnic Bunong villages to discover hidden waterfalls and diverse local flora."
+        },
+        {
+            "provinceName": "Ratanakiri",
+            "name": "Yeak Laom Lake",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Yak_Loum.jpg",
+            "desc": "A stunning volcanic crater lake known for its crystal-clear emerald water and serene jungle surroundings."
+        },
+        {
+            "provinceName": "Ratanakiri",
+            "name": "Virachey National Park",
+            "img": "https://www.aseanbiodiversity.org/wp-content/uploads/2024/03/Virachey-NP_by-Choun-Phirom-6.jpg",
+            "desc": "One of Cambodia's largest protected areas, offering deep-jungle trekking and rare wildlife encounters."
+        },
+        {
+            "provinceName": "Ratanakiri",
+            "name": "Cha Ong Waterfall",
+            "img": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/01/Cha-Ong-Waterfall.png",
+            "desc": "A majestic waterfall set in a rocky canyon where visitors can walk behind the curtain of falling water."
+        },
+        {
+            "provinceName": "Ratanakiri",
+            "name": "Ka Tieng Waterfall",
+            "img": "https://www.guidetrip.info/asset/img/gallery_resort/5abafbcb8310d.jpg",
+            "desc": "A picturesque cascade surrounded by lush forest, popular for swimming and relaxing in nature."
+        },
+        {
+            "provinceName": "Ratanakiri",
+            "name": "Banlung Town",
+            "img": "https://www.asiakingtravel.com/cuploads/files/Banlung-city-12(2).jpg",
+            "desc": "The red-dirt capital of the province and a central hub for exploring the surrounding natural wonders."
+        },
+        {
+            "provinceName": "Banteay Meanchey",
+            "name": "Banteay Chhmar Temple",
+            "img": "https://i0.wp.com/www.visitbanteaychhmar.org/wp-content/uploads/2010/12/DSC_0037-1.jpg?ssl=1",
+            "desc": "A massive, remote temple complex famous for its intricate carvings and unique multi-faced towers."
+        },
+        {
+            "provinceName": "Banteay Meanchey",
+            "name": "Sisophon Town",
+            "img": "https://d30rwgcdkx0urh.cloudfront.net/uploads/h1-sisophon-is-the-capital-of-banteay-meanchey-province-cambodia-1718784561.jpg",
+            "desc": "The bustling provincial capital that serves as a key crossroads between Thailand and Siem Reap."
+        },
+        {
+            "provinceName": "Banteay Meanchey",
+            "name": "Ang Trapeang Thmor",
+            "img": "https://www.tourismcambodia.org/storage/uploads/contents/entryform/1549688901-687-shutterstock-782890591.png",
+            "desc": "A vast reservoir and bird sanctuary that is a critical habitat for the rare Sarus Crane."
+        },
+        {
+            "provinceName": "Banteay Meanchey",
+            "name": "Svay Mountain",
+            "img": "https://mindtrip.ai/attractions/449f/ac62/d11e/ba48/cf55/1f4e/462f/8c96",
+            "desc": "A local hilltop site featuring pagodas and offering panoramic views of the surrounding plains."
+        },
+        {
+            "provinceName": "Kampong Cham",
+            "name": "Bamboo Bridge",
+            "img": "https://thebettercambodia.com/wp-content/uploads/2023/10/bamboo-bridge-to-koh.jpg",
+            "desc": "An incredible seasonal structure rebuilt every year to connect the city to Koh Paen island."
+        },
+        {
+            "provinceName": "Kampong Cham",
+            "name": "Nokor Bachey Temple",
+            "img": "https://www.tour-cambodia.com/cdn/kh-public/shutterstock_1070431232.jpg",
+            "desc": "A unique 11th-century sandstone temple with a modern colorful pagoda built directly inside its ruins."
+        },
+        {
+            "provinceName": "Kampong Cham",
+            "name": "French Lighthouse",
+            "img": "https://www.gocambotravel.com/wp-content/uploads/2025/09/French-Watchtower-Lighthouse-%E2%80%93-Kampong-Cham2.webp",
+            "desc": "A historic colonial-era landmark offering a bird's-eye view of the Mekong River and its surroundings."
+        },
+        {
+            "provinceName": "Kampong Cham",
+            "name": "Mekong Riverside",
+            "img": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/images/methode/2018/06/20/76e67b94-6f9d-11e8-b1d3-9161aa45bf67_1320x770_100446.JPG",
+            "desc": "A wide, scenic promenade perfect for evening walks, local snacks, and enjoying the river breeze."
+        },
+        {
+            "provinceName": "Kampong Cham",
+            "name": "Koh Paen Island",
+            "img": "https://www.gocambotravel.com/wp-content/uploads/2025/09/Koh-Pen-Beach.jpg",
+            "desc": "A peaceful river island ideal for cycling through traditional villages and pomelo orchards."
+        },
+        {
+            "provinceName": "Kampong Chhnang",
+            "name": "Floating Village",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/a9/ab/ea/kampong-chhnang-floating.jpg?w=900&h=-1&s=1",
+            "desc": "A fascinating community of colorful houses and markets that drift along the Tonle Sap river."
+        },
+        {
+            "provinceName": "Kampong Chhnang",
+            "name": "Pottery Village",
+            "img": "https://polarsteps.s3.amazonaws.com/u_345822/0ec90599-9355-48a7-8d10-7ca25e201160_large_image",
+            "desc": "The heart of Cambodia's clay craft, where artisans still use traditional methods to make various clay pots."
+        },
+        {
+            "provinceName": "Kampong Chhnang",
+            "name": "Phnom Da Temple",
+            "img": "https://www.passionindochinatravel.com/uploads/thumbs/new-Phnom%20Da.jpg",
+            "desc": "An ancient hilltop site with ruins that date back to the Funan era, overlooking scenic floodplains."
+        },
+        {
+            "provinceName": "Kampong Chhnang",
+            "name": "Neang Kang Rey Mountain",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/7/76/A_Panorama_shot_of_Phnom_Kong_Rei_viewed_from_Phsar_Krom.jpg",
+            "desc": "Known for its silhouette resembling a reclining woman and is associated with a tragic Khmer legend from the Twelve Sisters story."
+        },
+        {
+            "provinceName": "Kampong Speu",
+            "name": "Kirirom National Park",
+            "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoxgOoEXnhc1Ty7jc5-YpqoSHw03xFxUAAV5F5B1EZrFvq7ZXNtfbgvowGGiJtPpeS9n0LT4P8zvSG6JXkLQga2RZY-BtxrTMiPRhKJyl8697ysgEVF7Ud38bNOs9LeHSftGZ1gQLU_S3ZSVd5b_J2y6RfXb49zpxl1qWMh9TIYRuA74IHIxai2TJ86hA/s1600/Kirirom%20Waterfall.jpg",
+            "desc": "A high-altitude pine forest reserve known for its cool air, waterfalls, and scenic walking trails."
+        },
+        {
+            "provinceName": "Kampong Speu",
+            "name": "Chambok Waterfall",
+            "img": "https://www.guidetrip.info/asset/img/gallery_resort/5c7b26bab61d8.jpg",
+            "desc": "An eco-tourism site featuring a high cascade reachable by a pleasant trek through the forest."
+        },
+        {
+            "provinceName": "Kampong Speu",
+            "name": "Teuk Pus Hot Spring",
+            "img": "https://media.licdn.com/dms/image/v2/D4E12AQHAR0Z701Yj6g/article-cover_image-shrink_720_1280/B4EZiiEgDRGcAY-/0/1755065746176?e=2147483647&v=beta&t=YgWYH68Vrri_rCOzKSKvESu1oXp7EaJTvCJ5Th8lEUw",
+            "desc": "A rare natural hot spring believed to have healing properties, located in a quiet rural setting."
+        },
+        {
+            "provinceName": "Kampong Speu",
+            "name": "Phnom Aural",
+            "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/08/30123045/Phnom-Aural-Wildlife-Sanctuary-August-2023.jpg",
+            "desc": "The highest peak in Cambodia, offering a challenging and rewarding trek for experienced hikers."
+        },
+        {
+            "provinceName": "Kampong Speu",
+            "name": "Knong Psar (Khnang Phsar)",
+            "img": "https://cambodianess.com/uploads/news/a%20(1)_1724223118.JPG",
+            "desc": "Famed for lush green grasslands, pine forests, and dramatic sunrise views, it offers 2–3 day hiking and camping adventures popular during the rainy season."
+        },
+        {
+            "provinceName": "Kampong Thom",
+            "name": "Sambor Prei Kuk Temple",
+            "img": "https://www.travelbeginsat40.com/wp-content/uploads/2025/03/DSC08325-Edit.jpg",
+            "desc": "A UNESCO World Heritage site featuring pre-Angkorian brick temples scattered through a quiet forest."
+        },
+        {
+            "provinceName": "Kampong Thom",
+            "name": "Stung Sen River",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/05-Stung_Saen_at_Kampong_Thom-nX.jpg/1280px-05-Stung_Saen_at_Kampong_Thom-nX.jpg",
+            "desc": "A major waterway that offers scenic boat trips and insights into the local riverside communities."
+        },
+        {
+            "provinceName": "Kampong Thom",
+            "name": "Prasat Andet",
+            "img": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/01/Prasat-Andet-Temple.png",
+            "desc": "An 8th-century brick temple known for its distinct architecture and historical significance."
+        },
+        {
+            "provinceName": "Kampong Thom",
+            "name": "Santuk Mountain",
+            "img": "https://www.latinamericanstudies.org/cambodia/phnom-santuk-18.jpg",
+            "desc": "Located in Ko Koh village, Ko Koh commune, Santuk District, it is the most sacred mountain of the province."
+        },
+        {
+            "provinceName": "Kandal",
+            "name": "Oudong Mountain",
+            "img": "https://images.trvl-media.com/localexpert/3529303/aead6228-5b7c-4d7c-9a61-a63bd825e936.jpg?impolicy=resizecrop&rw=1005&rh=565",
+            "desc": "The former royal capital of Cambodia, featuring impressive stupas and panoramic views of the countryside."
+        },
+        {
+            "provinceName": "Kandal",
+            "name": "Ta Khmao Town",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Aerial_View_of_Ta_Khmau_municipality.jpg",
+            "desc": "The provincial capital, offering a blend of modern development and traditional riverside charm."
+        },
+        {
+            "provinceName": "Kandal",
+            "name": "Koh Dach",
+            "img": "https://d122axpxm39woi.cloudfront.net/images/destinations/origin/5fab9896a88ce.jpg",
+            "desc": "A tranquil 'Silk Island' on the Mekong River known for traditional weaving and rural charm."
+        },
+        {
+            "provinceName": "Oddar Meanchey",
+            "name": "Dangrek Mountains",
+            "img": "https://www.shutterstock.com/image-photo/generate-me-picture-photo-dangrek-600nw-2704227417.jpg",
+            "desc": "A rugged mountain range forming a natural border, offering historical sites and scenic overlooks."
+        },
+        {
+            "provinceName": "Oddar Meanchey",
+            "name": "Anlong Veng",
+            "img": "https://www.dccam.org/wp-content/uploads/04_Peace/Anlong_Veng_Master_Plan/Anlong-Veng-Master-Plan-5.jpg",
+            "desc": "A town with significant modern history, serving as a gateway to exploring the last strongholds of the Khmer Rouge."
+        },
+        {
+            "provinceName": "Oddar Meanchey",
+            "name": "Pol Pot Tomb",
+            "img": "https://www.youngpioneertours.com/wp-content/uploads/2020/06/Pol-Pots-grave-1024x768.jpg",
+            "desc": "A simple historical site that marks a significant and somber chapter in Cambodia's past."
+        },
+        {
+            "provinceName": "Pailin",
+            "name": "Wat Phnom Yat",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/1e/ae/7a/eight-doors-direction.jpg?w=1200&h=-1&s=1",
+            "desc": "A revered hilltop temple known for its Burmese-style architecture and stunning views of the town."
+        },
+        {
+            "provinceName": "Pailin",
+            "name": "Pailin Gem Market",
+            "img": "https://cdn.shopify.com/s/files/1/0655/2413/8162/files/Pailin_Sapphire_Buying_1.jpg?v=1741741068",
+            "desc": "A unique market where you can find the precious rubies and sapphires for which Pailin is historically famous."
+        },
+        {
+            "provinceName": "Pailin",
+            "name": "Elephant Head Waterfall",
+            "img": "https://www.guidetrip.info/asset/img/gallery_resort/5cc40c2300e0b.jpg",
+            "desc": "Often called Kbal Domri Waterfall, is located in Sangkhat Bar Yakha, Pailin municipality far about ~8km away from Grandma Yat Statue."
+        },
+        {
+            "provinceName": "Pailin",
+            "name": "Phnom Khiev Waterfall",
+            "img": "https://www.guidetrip.info/asset/img/gallery_resort/5c5b900af3a33.jpg",
+            "desc": "A scenic mountain area offering cool breezes and a peaceful escape into nature."
+        },
+        {
+            "provinceName": "Prey Veng",
+            "name": "Ba Phnom",
+            "img": "https://www.greeneratravel.com/userfiles/850baphnom.jpg",
+            "desc": "A sacred hill with ancient ruins and pagodas, considered the birthplace of the Funan Kingdom."
+        },
+        {
+            "provinceName": "Prey Veng",
+            "name": "Kompong Sne Dam",
+            "img": "https://www.tourismcambodia.com/img/travelguides/baray-andet.jpg.jpg",
+            "desc": "A significant ecological site and reservoir known for its scenic water views and as a habitat for local bird species."
+        },
+        {
+            "provinceName": "Prey Veng",
+            "name": "Weaving Handicraft Center",
+            "img": "https://www.greeneratravel.com/userfiles/850mekongisland.jpg",
+            "desc": "A cultural hub where visitors can witness the intricate process of traditional Khmer silk and cotton weaving."
+        },
+        {
+            "provinceName": "Prey Veng",
+            "name": "Prey Chong Srok Temple",
+            "img": "https://www.vivutravel.com/images/des-cambodia2/cambodia-travel-tour1.jpg",
+            "desc": "A peaceful ancient temple site that serves as an important spiritual landmark for the local provincial community."
+        },
+        {
+            "provinceName": "Pursat",
+            "name": "Kampong Luong",
+            "img": "https://i0.wp.com/www.cambodialifestyle.com/wp-content/uploads/2024/04/Prey-Veng-7.jpg",
+            "desc": "A vast and vibrant floating town on the Tonle Sap Lake, complete with its own schools, shops, and clinics."
+        },
+        {
+            "provinceName": "Pursat",
+            "name": "Veal Veng",
+            "img": "https://www.vstltravel.com/userfiles/images/Domestic/Pursat%20-%20Pailin%20-%20Battambang/5.jpg",
+            "desc": "A gateway to the Cardamom Mountains, offering rugged adventures through some of Southeast Asia's most biodiversity-rich wilderness."
+        },
+        {
+            "provinceName": "Pursat",
+            "name": "L'bak Komronh",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f3/d3/4a/20160420-140544-largejpg.jpg?w=1400&h=1400&s=1",
+            "desc": "A natural rocky rapid along the river that serves as a popular recreational spot for swimming and family picnics."
+        },
+        {
+            "provinceName": "Pursat",
+            "name": "Osoam Cardamom Community Centre",
+            "img": "https://new.horizonsunlimited.com/sites/default/files/styles/carousel/public/poi/2018-01/OU2A9670.jpg?itok=gxAMBuYQ",
+            "desc": "An eco-tourism center focused on conservation and community-led tours through the surrounding lush mountain landscapes."
+        },
+        {
+            "provinceName": "Stung Treng",
+            "name": "Ramsar Wetlands",
+            "img": "https://iucn.org/sites/default/files/2023-04/strs-ccva-cover.jpg",
+            "desc": "An ecologically vital area of protected wetlands, home to many species of birds and aquatic life."
+        },
+        {
+            "provinceName": "Stung Treng",
+            "name": "Sopheakmit Waterfall",
+            "img": "https://www.visitsoutheastasia.travel/wp-content/uploads/2019/10/Cambodia-Sopheakmith-Waterflow-Stoeng-Treng-Province.jpg",
+            "desc": "A powerful and wide waterfall located on the Mekong, famous for its dramatic spray and rock formations."
+        },
+        {
+            "provinceName": "Stung Treng",
+            "name": "Preah Ko Temple",
+            "img": "https://www.angkor-temples-in-cambodia.com/uploads/3/0/0/4/30047791/preah-ko-01_orig.jpg",
+            "desc": "An ancient brick temple ruin from the pre-Angkorian era, showcasing early Khmer architectural craftsmanship."
+        },
+        {
+            "provinceName": "Stung Treng",
+            "name": "Phnom Preah Theat",
+            "img": "https://www.gocambotravel.com/wp-content/uploads/2025/08/IMG_20220124_082153.jpg",
+            "desc": "A hilltop sacred site offering panoramic views of the Mekong River and the dense forests of the northern province."
+        },
+        {
+            "provinceName": "Svay Rieng",
+            "name": "Waiko River",
+            "img": "https://tonlejourneys.com/wp-content/uploads/2024/09/Mekong_Kayaking-Excursion_15-1279x800.jpg",
+            "desc": "A tranquil waterway that offers scenic views and insights into the agricultural life along its banks."
+        },
+        {
+            "provinceName": "Svay Rieng",
+            "name": "Bavet City",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/7d/71/fa/front-of-lvs.jpg?w=600&h=-1&s=1",
+            "desc": "A bustling border city known as a major international gateway, featuring vibrant markets and a unique cross-cultural atmosphere."
+        },
+        {
+            "provinceName": "Takeo",
+            "name": "Phnom Chisor",
+            "img": "https://www.angkor-temples-in-cambodia.com/uploads/3/0/0/4/30047791/phnom-chisor-05-600_orig.jpg",
+            "desc": "An 11th-century mountain temple offering expansive views and historical intrigue from the Angkorian era."
+        },
+        {
+            "provinceName": "Takeo",
+            "name": "Chup Pol Temple",
+            "img": "https://www.tourismcambodia.com/img/travelguides/chup_pol_temple.jpg",
+            "desc": "A serene temple site built near a natural spring, known for its peaceful atmosphere and historical stone structures."
+        },
+        {
+            "provinceName": "Takeo",
+            "name": "Phnom Da",
+            "img": "https://static.tuoitre.vn/tto/i/s626/2012/12/22/aFWqZDMZ.jpg",
+            "desc": "The site of a 6th-century temple that marks the transition into the Angkorian period, overlooking vast scenic floodplains."
+        },
+        {
+            "provinceName": "Takeo",
+            "name": "Neang Khmao Temple",
+            "img": "https://i0.wp.com/helloangkor.com/wp-content/uploads/2023/07/HA5D9358.jpg?resize=1024%2C683&ssl=1",
+            "desc": "Known as the 'Temple of the Black Virgin,' these sandstone ruins are dedicated to Hindu deities and date back to the 10th century."
+        },
+        {
+            "provinceName": "Takeo",
+            "name": "Phnom Tamao Zoological Park",
+            "img": "https://phnomtamaozoologicalpark.com/wp-content/uploads/2025/02/2025-24.jpg",
+            "desc": "Cambodia's premier wildlife rescue center, providing a vast natural habitat for a wide variety of rescued animals."
+        },
+        {
+            "provinceName": "Takeo",
+            "name": "Wat Phnom Khliang",
+            "img": "https://www.cambotours.com/userfiles/thumbs/wat-phnom-khliang.jpg",
+            "desc": "A unique pagoda built directly into a cave system, combining natural rock formations with spiritual Khmer architecture."
+        },
+        {
+            "provinceName": "Takeo",
+            "name": "Tonle Bati",
+            "img": "https://static.wixstatic.com/media/0a84f2_35498ae9b5694cfb9a3b5b8a2104dbd6~mv2.jpg/v1/fill/w_5184,h_3888,al_c,q_90/TonleBati1.JPG",
+            "desc": "A popular lakeside retreat featuring well-preserved ancient temples and bamboo picnic huts along the water's edge."
+        },
+        {
+            "provinceName": "Tboung Khmum",
+            "name": "Rubber Plantation",
+            "img": "https://asianews.network/wp-content/uploads/2022/08/topic-12-rubber-plantation-at-memot-district-in-tbong-khmom-province_19_01-2016heng-chivoan-2.jpg",
+            "desc": "Vast, orderly forest estates that have been a cornerstone of the provincial economy for generations."
+        },
+        {
+            "provinceName": "Tboung Khmum",
+            "name": "Haong Waterfall",
+            "img": "https://www.guidetrip.info/asset/img/gallery_resort/5b0a5ea005117.jpg",
+            "desc": "A hidden natural gem that provides a quiet, cool escape for locals and adventurous travelers."
+        },
+        {
+            "provinceName": "Tboung Khmum",
+            "name": "Preah Nor Kor Knong-Kau Temple",
+            "img": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/01/Prey-Nor-Kor-Knong.png",
+            "desc": "The provincial capital, serving as a lively hub for commerce, administration, and local culture."
+        }
+    ]
+}

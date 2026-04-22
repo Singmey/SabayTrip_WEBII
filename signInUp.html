@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabay Trip – Cambodia Smart Travel Planner</title>
+
+    <link rel="stylesheet" href="css/signInUp.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id="main-nav">
+        <div class="navlogo">
+            <img src="images/sabaytrip-logo.png" alt="logo">
+            <a href="index.html" class="logo-text">SabayTrip</a>
+        </div>
+
+        <ul class="nav-btn">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trip.html">Trip</a></li>
+            <li><a href="planner.html">Planner List</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+
+    <div class="page active">
+        <div class="auth-wrap">
+            <div class="auth-card">
+
+                <div class="auth-top">
+                    <img src="images/sabaytrip-logo.png" class="logo-img">
+                    <h2 class="auth-brand">Sabay Trip</h2>
+                    <p class="auth-slogan">Travel Smart, Travel Sabay</p>
+                </div>
+
+                <div class="auth-tabs">
+                    <button class="auth-tab active" onclick="switchAuthTab('login')">Log In</button>
+                    <button class="auth-tab" onclick="switchAuthTab('signup')">Sign Up</button>
+                </div>
+
+                <!-- LOGIN FORM -->
+                <div id="af-login" class="auth-body">
+                    <button class="auth-social">
+                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" class="google-icon">
+                        Continue with Google
+                    </button>
+
+                    <div class="auth-divider">or</div>
+
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="email" id="loginEmail" placeholder="you@example.com">
+                    </div>
+
+                    <div class="field">
+                        <label>Password</label>
+                        <input type="password" id="loginPassword" placeholder="Enter your password">
+                    </div>
+
+                    <a class="auth-forgot" onclick="openForgot()">Forgot password?</a>
+
+                    <button class="auth-submit" onclick="login()">Log In</button>
+
+                    <div class="auth-footer">
+                        No account? <a onclick="switchAuthTab('signup')">Sign up</a>
+                    </div>
+                </div>
+
+                <!-- SIGNUP FORM -->
+                <div id="af-signup" class="auth-body">
+                    <button class="auth-social">
+                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" class="google-icon">
+                        Continue with Google
+                    </button>
+
+                    <div class="auth-divider">or</div>
+
+                    <div class="name-row">
+                        <div class="field">
+                            <label>First Name</label>
+                            <input type="text" id="signupFirstName" placeholder="Phallyda">
+                        </div>
+
+                        <div class="field">
+                            <label>Last Name</label>
+                            <input type="text" id="signupLastName" placeholder="Ouch">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="email" id="signupEmail" placeholder="you@example.com">
+                    </div>
+
+                    <div class="field">
+                        <label>Password</label>
+                        <input type="password" id="signupPassword" placeholder="Create a password (min 6 chars)">
+                    </div>
+
+                    <button class="auth-submit" onclick="signup()">Create Account</button>
+
+                    <div class="auth-footer">
+                        Already have account? <a onclick="switchAuthTab('login')">Log in</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Forgot Password -->
+    <div id="forgotModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeForgot()">&times;</span>
+            <h3>Reset Password</h3>
+            <p>Enter your email to receive reset instructions</p>
+            <input type="email" id="resetEmail" placeholder="your@email.com">
+            <button onclick="sendResetLink()">Send Reset Link</button>
+        </div>
+    </div>
+
+    <script src="js/signInUp.js"></script>
+</body>
+</html>

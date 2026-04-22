@@ -1,0 +1,214 @@
+{
+    "provinces": [
+        {   
+            "id": "pp",
+            "name": "Phnom Penh",
+            "img": "https://cdn.realisticasia.com/207/Phnom-Penh.jpg",
+            "rate": "★★★★☆",
+            "score": "4.5",
+            "tag": "Most Popular",
+            "description": "The capital city known for its culture, history, and riverside views."
+        },
+        {   
+            "id": "sr",
+            "name": "Siem Reap",
+            "img": "https://www.geckoroutes.com/wp-content/uploads/2020/06/siem-reap-cambodia.jpg",
+            "rate": "★★★★★",
+            "score": "4.9",
+            "tag": "Most Popular",
+            "description": "Iconic gateway to the largest temple complex in the world, the Angkor Wat Temple."
+        },
+        {
+            "id": "pv",
+            "name": "Preah Vihear",
+            "img": "https://napv.gov.kh/uploads/images/Gallery/Header_Slideshow/3.PV.jpg",
+            "rate": "★★★★☆",
+            "score": "4.2",
+            "tag": "Most Popular",
+            "description": "Home to a world's heritage crowned by a spectacular clifftop temple."
+        },
+        {
+            "id": "btb",
+            "name": "Battambang",
+            "img": "https://i0.wp.com/www.ooaworld.com/wp-content/uploads/2013/08/statue-Battambang-Cambodia.jpg?fit=1280%2C960&ssl=1",
+            "rate": "★★★★☆",
+            "score": "4.6",
+            "tag": "Popular",
+            "description": "Artistic riverside town famous for colonial charm and the bamboo train."
+        },
+        {
+            "id": "shv",
+            "name": "Sihanoukville",
+            "img": "https://www.greeneratravel.com/userfiles/850x450-sihanoukville.jpg",
+            "rate": "★★★★☆",
+            "score": "4.3",
+            "tag": "Most Popular",
+            "description": "Cambodia's premier coastal hub, offering turquoise waters and pristine tropical islands."
+        },
+        {
+            "id": "kpt",
+            "name": "Kampot",
+            "img": "https://www.flexibletourism.com/userfiles/thumbs/Seahorse.jpg",
+            "rate": "★★★★☆",
+            "score": "4.4",
+            "tag": "Recommend",
+            "description": "Peaceful riverside town famous for durian farms, pepper farms and sunsets."
+        },
+        {
+            "id": "kep",
+            "name": "Kep",
+            "img": "https://www.novo-monde.com/app/uploads/2023/07/kep-cambodia-2-1024x683.jpg",
+            "rate": "★★★★☆",
+            "score": "4.5",
+            "tag": "Recommend",
+            "description": "A quiet seaside escape renowned for its fresh crab and sunsets."
+        },
+        {
+            "id": "ktc",
+            "name": "Kratie",
+            "img": "https://www.cambotours.com/userfiles/thumbs/explore-kratie-experience-full-day-tour.jpg",
+            "rate": "★★★★☆",
+            "score": "4.3",
+            "tag": "Popular",
+            "description": "Home to the rare, endangered Irrawaddy dolphins in the Mekong River."
+        },
+        {
+            "id": "kk",
+            "name": "Koh Kong",
+            "img": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepNzQy9ampMSIKYZPUTLg_xVlf4n5zXPHjEetsHRZ8L_0MBL3O_zTVXI-ISIIXMSfKbyUK0eZzsnMZYzegB6Or6pgco3A-cKS6yFDt5zItviSKgkjBTn1cQQvoChEK_uArI4sWi=s1360-w1360-h1020-rw",
+            "rate": "★★★★☆",
+            "score": "4.3",
+            "tag": "Recommend",
+            "description": "An eco-tourism frontier defined by vast mangrove forests, waterfalls, and the dense Cardamom Mountains."
+        },
+        {
+            "id": "mdk",
+            "name": "Mondulkiri",
+            "img": "https://d122axpxm39woi.cloudfront.net/images/destinations/origin/5da0483d9d8b0.jpg",
+            "rate": "★★★★☆",
+            "score": "4.3",
+            "tag": "Recommend",
+            "description": "Cool highland sanctuary of rolling hills, thundering waterfalls, and ethical elephant encounters in the wild."
+        },
+        {
+            "id": "rtk",
+            "name": "Ratanakiri",
+            "img": "https://www.mondulkiriproject.org/wp-content/uploads/2019/06/Ratanakiri.jpg",
+            "rate": "★★★★☆",
+            "score": "4.3",
+            "description": "Famous for the emerald-green Yeak Laom Volcanic Lake, indigenous hill-tribe cultures, and Virachey National Park."
+        },
+        {
+            "id": "bmc",
+            "name": "Banteay Meanchey",
+            "img": "https://i0.wp.com/www.visitbanteaychhmar.org/wp-content/uploads/2010/12/DSC_0037-1.jpg?ssl=1",
+            "rate": "★★★★☆",
+            "score": "4.0",
+            "description": "A bustling border province that hides the massive, jungle-entwined ruins of the Banteay Chhmar temple complex."
+        },
+        {
+            "id": "kpc",
+            "name": "Kampong Cham",
+            "img": "https://tuttocambogia.com/wp-content/uploads/2023/12/kampong-cham-tuttocambogia.jpg",
+            "rate": "★★★★☆",
+            "score": "4.0",
+            "description": "A friendly Mekong hub featuring the historic bamboo bridge, ancient temples, and rubber plantations."
+        },
+        {
+            "id": "kpcn",
+            "name": "Kampong Chhnang",
+            "img": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/01/Kampong-Chhnang-Pottery-2.png",
+            "rate": "★★★★☆",
+            "score": "4.1",
+            "description": "Famous for its traditional handmade pottery and sprawling floating villages of the Tonle Sap lake."
+        },
+        {
+            "id": "kps",
+            "name": "Kampong Speu",
+            "img": "https://walkaboutmonkey.com/wp-content/uploads/2023/01/Kirirom-view-1024x585-optimized.webp",
+            "rate": "★★★★☆",
+            "score": "4.2",
+            "description": "A lush outdoor destination favored for the pine forests and cool mountain air of Kirirom National Park."
+        },
+        {
+            "id": "kptm",
+            "name": "Kampong Thom",
+            "img": "https://tourismcambodia.org/storage/uploads/category_banner/ministry-of-tourism-cambodia-2021-06-13-04-32-33pm.jpg",
+            "rate": "★★★★☆",
+            "score": "4.0",
+            "description": "The archaeological heart of the country, home to the pre-Angkorian temples of Sambor Prei Kuk."
+        },
+        {
+            "id": "kdl",
+            "name": "Kandal",
+            "img": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/02/Kandal-Province.png",
+            "rate": "★★★★☆",
+            "score": "4.1",
+            "description": "The historic spirit of the capital's outskirts, the former royal capital of Cambodia."
+        },
+        {
+            "id": "omc",
+            "name": "Oddar Meanchey",
+            "img": "https://tourismcambodia.org/storage/uploads/category_banner/ministry-of-tourism-cambodia-2019-02-18-07-39-42am-Oddar-Meanchey-01.jpg",
+            "rate": "★★★★☆",
+            "score": "4.0",
+            "description": "A remote northern frontier where the rugged Dangrek Mountains located."
+        },
+        {
+            "id": "pln",
+            "name": "Pailin",
+            "img": "https://cambodia.thajsko.com/wp-content/uploads/Pailin-01.jpg",
+            "rate": "★★★★☆",
+            "score": "4.1",
+            "description": "A gem-mining hub, known for its beautiful hills, waterfalls, and the glittering Wat Phnom Yat."
+        },
+        {
+            "id": "pvng",
+            "name": "Prey Veng",
+            "img": "https://a.broer.no/data/b/b209_2.jpg",
+            "rate": "★★★★☆",
+            "score": "4.0",
+            "description": "A serene agricultural heartland steeped in early Khmer history and the sacred legends of Ba Phnom."
+        },
+        {
+            "id": "prs",
+            "name": "Pursat",
+            "img": "https://www.travelbeginsat40.com/wp-content/uploads/2025/03/JO-Pursat-62.jpg",
+            "rate": "★★★★☆",
+            "score": "4.0",
+            "description": "Experience the great lake of Kampong Luong floating town and visiting the remote Cardamom Mountains."
+        },
+        {
+            "id": "stg",
+            "name": "Stung Treng",
+            "img": "https://dontforgettomove.com/wp-content/uploads/2015/04/what-to-do-in-stung-treng-4.jpg",
+            "rate": "★★★★☆",
+            "score": "4.2",
+            "description": "A rugged northern crossroads where the Mekong's flooded forests provide a sanctuary for kayakers and nature lovers."
+        },
+        {
+            "id": "svr",
+            "name": "Svay Rieng",
+            "img": "https://sgp1.digitaloceanspaces.com/newsasiacloud/wp-content/uploads/2024/03/20-128.jpg",
+            "rate": "★★★★☆",
+            "score": "4.0",
+            "description": "A bustling border province with a unique local culture and the scenic Waiko River meanders that captivate the heart of visitors."
+        },
+        {
+            "id": "tko",
+            "name": "Takeo",
+            "img": "https://www.asiakingtravel.com/images/thumbs/2024/06/12372/takeo-banner_1900x700xcrop.webp",
+            "rate": "★★★★☆",
+            "score": "4.1",
+            "description": "Often called the Cradle of Khmer Civilization, it features the ancient hilltop temple of Phnom Chisor and the Angkor Borei archaeological site."
+        },
+        {
+            "id": "tbkm",
+            "name": "Tboung Khmum",
+            "img": "https://file-dangcongsan.nhandan.vn/DATA/3/2019/03/trongcaosu_28319-18_04_32_052.jpg",
+            "rate": "★★★★☆",
+            "score": "4.0",
+            "description": "Cambodia's newest province, known for its vast rubber plantations and the historical Haong Waterfall."
+        }
+    ]
+}

@@ -11,7 +11,7 @@ A web application that helps users explore Cambodia's 25 provinces, check real-t
 ## Key Features
 - Browse and search provinces
 - View real-time weather (OpenWeather API)
-- Drag & drop trip planner (up to 5 days)
+- Confirm trip planner (up to 5 days)
 - Save, edit, and delete trips
 - User login/signup with localStorage
 - Fully responsive design

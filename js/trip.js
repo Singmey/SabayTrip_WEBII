@@ -270,7 +270,7 @@ const displayProvinces = (provincesList) => {
                 btn.classList.add("loved");
             }
 
-            fragment.appendChild(card);
+            applyFilters(); 
         });
         
         grid.appendChild(card);

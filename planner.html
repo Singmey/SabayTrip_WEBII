@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Planner List</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Planner List</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/planner.css">
-</head>
+    <link rel="stylesheet" href="css/planner.css">
+  </head>
 
-<body>
+  <body>
+    <nav>
+      <div class="navlogo">
+        <a href="index.html"><img src="images/sabaytrip-logo.png" alt="logo"></a>
+        <a href="index.html" class="logo-text">SabayTrip</a>
+      </div>
 
-  <nav>
-    <div class="navlogo">
-      <img src="images\sabaytrip-logo.png" alt="logo">
-      <a href="index.html" class="logo-text">SabayTrip</a>
+      <ul class="nav-btn">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="trip.html">Trip</a></li>
+        <li><a href="planner.html" class="active">Planner List</a></li>
+        <li><a href="account.html">Account</a></li>
+      </ul>
+    </nav>
+
+    <div class="planner-hero">
+    <p class="hero-label">Your Travel Plans</p>
+    <div class="hero-row">
+      <h1 class="hero-title">My Planner List</h1>
+      <div class="stats-row" id="statsRow"></div>
+    </div>
     </div>
 
-    <ul class="nav-btn">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="trip.html">Trip</a></li>
-      <li><a href="planner.html" class="active">Planner List</a></li>
-      <li><a href="account.html">Account</a></li>
-    </ul>
-  </nav>
+    <div class="container">
+      <div class="planner-list" id="plannerList"></div>
+    </div>
 
-  <div class="container">
-    <h1 class="title">My Planner List</h1>
-
-    <div class="planner-list" id="plannerList"></div>
-  </div>
-
-<script src="js/planner.js"></script>
-
-</body>
+    <script src="js/planner.js"></script>
+  </body>
 </html>

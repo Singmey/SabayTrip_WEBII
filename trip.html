@@ -13,11 +13,10 @@
         <link rel="stylesheet" href="css/trip.css">
     </head>
 
-
     <body>
         <nav id="main-nav">
             <div class="navlogo">
-                <img src="images/sabaytrip-logo.png" alt="logo">
+                <a href="index.html"><img src="images/sabaytrip-logo.png" alt="logo"></a>
                 <a href="index.html" class="logo-text">SabayTrip</a>
             </div>
 
@@ -29,18 +28,18 @@
             </ul>
         </nav>
 
+        <div class="hero"></div>
+
         <div class="search-wrapper">
-
             <form id="searchForm" class="search-box">
-
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
-
                 <input 
                     type="text" 
                     id="searchInput"
                     placeholder="Search province or place..."
                     autocomplete="off"
                 >
+                <button type="button" id="clearBtn" class="clear-btn">✕</button>
             </form>
         </div>
 
@@ -52,6 +51,8 @@
             <button class="chip" data-filter="city">City</button>
         </div>
 
+        <p id="resultsCount" class="results-count"></p>
+
         <section class="grid" id="provinceList"></section>
 
         <button id="toTopBtn" class="to-top-btn">
@@ -59,43 +60,42 @@
         </button>
 
         <footer class="footer">
-        <div class="footer-container">
-            <img src="images/sabaytrip-logo.png" alt="logo">
+            <div class="footer-container">
+                <img src="images/sabaytrip-logo.png" alt="logo">
 
-            <div class="footer-section">
-                <h2>SabayTrip</h2>
-                <p>
-                    SabayTrip is a simple travel planning web app that helps you organize your trips, 
-                    check weather, and manage your travel plans efficiently.
-                </p>
+                <div class="footer-section">
+                    <h2>SabayTrip</h2>
+                    <p>
+                        SabayTrip is a simple travel planning web app that helps you organize your trips, 
+                        check weather, and manage your travel plans efficiently.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="trip.html">Trip</a></li>
+                        <li><a href="planner.html">Planner List</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: sabaytrip@gmail.com</p>
+                    <p>Phone: +855 12 345 678</p>
+                    <p>Location: Phnom Penh, Cambodia</p>
+                </div>
+
             </div>
 
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="trip.html">Trip</a></li>
-                    <li><a href="planner.html">Planner List</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>© 2026 SabayTrip. All rights reserved.</p>
             </div>
-
-            <div class="footer-section">
-                <h4>Contact</h4>
-                <p>Email: sabaytrip@gmail.com</p>
-                <p>Phone: +855 12 345 678</p>
-                <p>Location: Phnom Penh, Cambodia</p>
-            </div>
-
-        </div>
-
-        <div class="footer-bottom">
-            <p>© 2026 SabayTrip. All rights reserved.</p>
-        </div>
-    </footer>
+        </footer>
     
-        <script src="js/trip.js"></script>
-
+    <script src="js/trip.js"></script>
+    
     </body>
-
-</html>
+</html> 

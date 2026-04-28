@@ -6,12 +6,6 @@ const saveTrips = () => {
   localStorage.setItem("plans", JSON.stringify(trips));
 }
 
-const addTrip = (newTrip) => {
-  trips.push(newTrip);
-  saveTrips();
-}
-
-// Display trips
 const displayTrips = () => {
   const list = document.getElementById("plannerList");
   list.innerHTML = "";

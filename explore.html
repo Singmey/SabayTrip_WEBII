@@ -1,96 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trip Details</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Explore Cambodia — SabayTrip</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <link rel="stylesheet" href="css/explore.css">
+    </head>
 
+    <body>
+        <nav id="main-nav">
+            <div class="navlogo">
+                <a href="index.html"><img src="images/sabaytrip-logo.png" alt="logo"></a>
+                <a href="index.html" class="logo-text">SabayTrip</a>
+            </div>
+            <ul class="nav-btn">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trip.html" class="active">Trip</a></li>
+                <li><a href="planner.html">Planner List</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
 
-    <link rel="stylesheet" href="css/explore.css">
-    <link rel="stylesheet" href="css/trip_style.css">
-</head>
-
-<body>
-    <nav id="main-nav">
-        <div class="navlogo">
-            <img src="images/sabaytrip-logo.png" alt="logo">
-            <a href="index.html" class="logo-text">SabayTrip</a>
-        </div>
-
-        <ul class="nav-btn">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="trip.html" class="active">Trip</a></li>
-            <li><a href="planner.html">Planner List</a></li>
-            <li><a href="account.html">Account</a></li>
-        </ul>
-    </nav>
-
-    <h2 class="title">Plan Your Trip</h2>
-
-    <div>
-        <h3 id="provinceTitle" class="province-title"></h3>
-    </div>
-
-    <div class="province-header">
-        <h3 id="provinceTitle" class="province-title"></h3>
-    </div>
-
-    <section class="grid" id="placeList"></section>
-
-    <section class="planner">
-        <h2>Select Your Trip Dates</h2>
-
-        <div id="daySelector"></div>
-
-        <div id="result">
-            <h3 id="rangeText"></h3>
-
-            <div id="weatherContainer"></div>
-            <div id="btn-save"></div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <img src="images/sabaytrip-logo.png" alt="logo">
-
-            <div class="footer-section">
-                <h2>SabayTrip</h2>
-                <p>
-                    SabayTrip is a simple travel planning web app that helps you organize your trips, 
-                    check weather, and manage your travel plans efficiently.
-                </p>
+        <div class="explore-split">
+            <div class="places-panel">
+                <div class="places-header">
+                    <div class="places-header-top">
+                        <div>
+                            <p class="places-label">Exploring</p>
+                            <h2 id="provinceTitle" class="province-title"></h2>
+                        </div>
+                        <div class="places-badges">
+                            <span id="placeCount" class="badge badge-blue"></span>
+                            <span id="savedCount" class="badge badge-red" ></span>
+                        </div>
+                    </div>
+                </div>
+                <section id="placeList" class="places-list"></section>
             </div>
 
-        <div class="footer-section">
-            <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="trip.html">Trip</a></li>
-                    <li><a href="planner.html">Planner List</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
-            </div>
+            <div class="planner-panel">
+                <div class="date-picker-box">
+                    <div class="date-picker-header">
+                        <div>
+                            <h3>Select Your Dates</h3>
+                            <p class="date-hint">Tap a start day, then an end day (max 5 days)</p>
+                        </div>
+                        <button id="resetDatesBtn" class="reset-btn" style="display:none">Reset</button>
+                    </div>
+                    <div id="daySelector"></div>
+                    <p id="rangeText" class="range-text"></p>
+                </div>
 
-            <div class="footer-section">
-                <h4>Contact</h4>
-                <p>Email: sabaytrip@gmail.com</p>
-                <p>Phone: +855 12 345 678</p>
-                <p>Location: Phnom Penh, Cambodia</p>
-            </div>
+                <div id="result">
+                    <div id="weatherContainer">
+                        <div class="weather-empty">
+                            <p class="weather-empty-title">Select dates to see weather</p>
+                            <p class="weather-empty-sub">Tap a start day, then an end day above</p>
+                        </div>
+                    </div>
+                    <div id="btn-save"></div>
+                </div>
 
+            </div>
         </div>
 
-        <div class="footer-bottom">
-            <p>© 2026 SabayTrip. All rights reserved.</p>
-        </div>
-    </footer>
+        <footer class="footer">
+            <div class="footer-container">
+                <img src="images/sabaytrip-logo.png" alt="logo">
+                <div class="footer-section">
+                    <h2>SabayTrip</h2>
+                    <p>SabayTrip is a simple travel planning web app that helps you organize your trips, check weather, and manage your travel plans efficiently.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="trip.html">Trip</a></li>
+                        <li><a href="planner.html">Planner List</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: sabaytrip@gmail.com</p>
+                    <p>Phone: +855 12 345 678</p>
+                    <p>Location: Phnom Penh, Cambodia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 SabayTrip. All rights reserved.</p>
+            </div>
+        </footer>
 
-    <script src="js/explore.js"></script>
-</body>
+        <script src="js/explore.js"></script>
+    </body>
 </html>

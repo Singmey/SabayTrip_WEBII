@@ -1,6 +1,6 @@
-let provinces = [];        
-let currentFilter = "all"; 
-let searchText = "";      
+let provinces = [];
+let currentFilter = "all";
+let searchText = "";
 
 const grid = document.getElementById("provinceList");
 const searchInput = document.getElementById("searchInput");
@@ -10,40 +10,30 @@ const toTopBtn = document.getElementById("toTopBtn");
 const clearBtn = document.getElementById("clearBtn");
 const resultsCount = document.getElementById("resultsCount");
 
-const loadProvinces = async() => {
+const loadProvinces = async () => {
     try {
-        const response = await fetch('data/provinces.json');
-
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
+        const response = await fetch("data/provinces.json");
         const data = await response.json();
 
-        if (!data.provinces || !Array.isArray(data.provinces)) {
-            throw new Error("Invalid data format");
-        }
-
-        provinces = data.provinces;
-        displayProvinces(provinces); 
+        provinces = data.provinces || [];
+        displayProvinces(provinces);
 
     } catch (error) {
-        console.error("Error loading:", error);
-        grid.innerHTML = "<p style='color:red'>Failed to load provinces. Please refresh.</p>";
+        console.error(error);
+        grid.innerHTML = "<p style='color:red'>Failed to load provinces.</p>";
     }
-}
+};
 
-// Slideshow
+// Hero slider
 const initHeroSlider = () => {
-    const heroSection = document.querySelector('.hero');
+    const hero = document.querySelector(".hero");
+    if (!hero) return;
 
-    if (!heroSection) return;
-    if (heroSection.querySelector('.slideshow-container')) return;
-    
-    // Clear existing content in hero
-    heroSection.innerHTML = '';
-    
-    const slides = [
+    // Prevent duplicate init
+    if (hero.querySelector(".slideshow-container")) return;
+
+    hero.innerHTML = "";
+        const slides = [
         {
             url: 'https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg',
             title: 'Welcome to Cambodia',
@@ -90,266 +80,213 @@ const initHeroSlider = () => {
             desc: 'Hidden natural wonders waiting to be explored'
         }
     ];
-    
-    const slideshowContainer = document.createElement('div');
-    slideshowContainer.className = 'slideshow-container';
-    
-    // Create slides
-    slides.forEach((slide, index) => {
-        const slideDiv = document.createElement('div');
-        slideDiv.className = 'slide';
-        if (index === 0) slideDiv.classList.add('active');
-        
-        const img = document.createElement('img');
+
+    let currentIndex = 0;
+
+    //Slide container
+    const container = document.createElement("div");
+    container.className = "slideshow-container";
+
+    const slideElements = [];
+    const dotElements = [];
+
+    slides.forEach((slide, i) => {
+        const slideDiv = document.createElement("div");
+        slideDiv.className = "slide";
+        if (i === 0) slideDiv.classList.add("active");
+
+        const img = document.createElement("img");
         img.src = slide.url;
-        img.alt = slide.title;
-        
+
         slideDiv.appendChild(img);
-        slideshowContainer.appendChild(slideDiv);
+        container.appendChild(slideDiv);
+
+        slideElements.push(slideDiv);
     });
-    
-    heroSection.appendChild(slideshowContainer);
-    
-    // Dots navigation
-    const dotsContainer = document.createElement('div');
-    dotsContainer.className = 'slideshow-dots';
-    
-    slides.forEach((_, index) => {
-        const dot = document.createElement('div');
-        dot.className = 'dot';
-        if (index === 0) dot.classList.add('active');
-        dot.addEventListener('click', () => currentSlide(index));
+
+    hero.appendChild(container);
+
+    // Dots
+    const dotsContainer = document.createElement("div");
+    dotsContainer.className = "slideshow-dots";
+
+    slides.forEach((_, i) => {
+        const dot = document.createElement("div");
+        dot.className = "dot";
+        if (i === 0) dot.classList.add("active");
+
+        dot.addEventListener("click", () => {
+            showSlide(i);
+            resetTimer();
+        });
+
         dotsContainer.appendChild(dot);
+        dotElements.push(dot);
     });
-    
-    heroSection.appendChild(dotsContainer);
-    
-    // Add FULL FRAME overlay
-    const overlay = document.createElement('div');
-    overlay.className = 'hero-overlay';
+
+    hero.appendChild(dotsContainer);
+
+    // Overlay section
+    const overlay = document.createElement("div");
+    overlay.className = "hero-overlay";
+
     overlay.innerHTML = `
         <div class="hero-overlay-content">
             <h1 id="slideTitle">${slides[0].title}</h1>
             <p id="slideDesc">${slides[0].desc}</p>
         </div>
     `;
-    heroSection.appendChild(overlay);
-    
-    let currentIndex = 0;
-    const slideElements = document.querySelectorAll('.slide');
-    const dots = document.querySelectorAll('.dot');
-    const titleElement = document.getElementById('slideTitle');
-    const descElement = document.getElementById('slideDesc');
-    
-    // Function to change slide
+
+    hero.appendChild(overlay);
+
+    const titleEl = overlay.querySelector("#slideTitle");
+    const descEl = overlay.querySelector("#slideDesc");
+
+    //Slide Change Function
     const showSlide = (index) => {
-        slideElements.forEach(slide => slide.classList.remove('active'));
-        dots.forEach(dot => dot.classList.remove('active'));
-        
-        // Add active class to current slide and dot
-        slideElements[index].classList.add('active');
-        dots[index].classList.add('active');
-        
-        // Update overlay text with fade effect
-        if (titleElement && descElement) {
-            titleElement.style.opacity = '0';
-            descElement.style.opacity = '0';
-            
-            setTimeout(() => {
-                titleElement.textContent = slides[index].title;
-                descElement.textContent = slides[index].desc;
-                titleElement.style.opacity = '1';
-                descElement.style.opacity = '1';
-            }, 300);
-        }
-        
+        slideElements.forEach(s => s.classList.remove("active"));
+        dotElements.forEach(d => d.classList.remove("active"));
+
+        slideElements[index].classList.add("active");
+        dotElements[index].classList.add("active");
+
+        // Fade text effect
+        titleEl.style.opacity = "0";
+        descEl.style.opacity = "0";
+
+        setTimeout(() => {
+            titleEl.textContent = slides[index].title;
+            descEl.textContent = slides[index].desc;
+            titleEl.style.opacity = "1";
+            descEl.style.opacity = "1";
+        }, 300);
+
         currentIndex = index;
     };
-    
+
     const nextSlide = () => {
-        let newIndex = currentIndex + 1;
-        if (newIndex >= slides.length) newIndex = 0;
-        showSlide(newIndex);
+        const next = (currentIndex + 1) % slides.length;
+        showSlide(next);
     };
-    
-    window.prevSlide = () => {
-        let newIndex = currentIndex - 1;
-        if (newIndex < 0) newIndex = slides.length - 1;
-        showSlide(newIndex);
-    };
-    
-    window.currentSlide = (index) => {
-        showSlide(index);
-        resetTimer();
-    };
-    
-    let slideInterval = setInterval(nextSlide, 4000);
+
+    // Auto-slide every 4 seconds
+    let interval = setInterval(nextSlide, 4000);
+
     const resetTimer = () => {
-        clearInterval(slideInterval);
-        slideInterval = setInterval(nextSlide, 4000);
+        clearInterval(interval);
+        interval = setInterval(nextSlide, 4000);
     };
-    
 };
 
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initHeroSlider);
-} else {
-    initHeroSlider();
-}
-
-const displayProvinces = (provincesList) => {
-    //using fragment to reload faster
-    const fragment = document.createDocumentFragment();
+const displayProvinces = (list) => {
     grid.innerHTML = "";
 
-    // Update results counter
     if (resultsCount) {
-        resultsCount.textContent = provincesList.length === provinces.length
-            ? `Showing all ${provincesList.length} provinces`
-            : `${provincesList.length} province${provincesList.length !== 1 ? "s" : ""} found`;
+        resultsCount.textContent =
+            list.length === provinces.length
+                ? `Showing all ${list.length} results`
+                : `${list.length} results`;
     }
 
-    if (provincesList.length === 0) {
+    if (list.length === 0) {
         grid.innerHTML = "<p>No provinces found.</p>";
         return;
     }
 
-    // Load saved wishlist from browser
     const favs = JSON.parse(localStorage.getItem("sabaytrip_favs") || "[]");
 
-    provincesList.forEach(province => {
+    list.forEach(province => {
         const card = document.createElement("div");
         card.className = "card";
 
-        const tagHTML = province.tag ? `<span class="tag">${province.tag}</span>` : "";
-        const imgSrc = province.img || "https://placehold.co/600x400/0B2D72/white?text=Cambodia";
         const isFav = favs.includes(province.name);
 
         card.innerHTML = `
             <div class="card-img">
-                <img src="${imgSrc}" alt="${province.name}">
-                ${tagHTML}
-                <button class="heart-btn ${isFav ? "loved" : "not-loved"}" data-name="${province.name}" title="Add to wishlist">
+                <img src="${province.img || "https://placehold.co/600x400"}">
+                <button class="heart-btn ${isFav ? "loved" : ""}" data-name="${province.name}">
                     ${isFav ? "♥" : "♡"}
                 </button>
             </div>
 
             <div class="card-content">
                 <h3>${province.name}</h3>
-
-                <div class="card-rating">
-                    ${province.rate || "★★★★☆"} <span class="provinceRate">${province.score || "4.5"}</span>
-                </div>
-
-                <p>${province.description || "Beautiful destination in Cambodia waiting to be explored."}</p>
-
+                <p>${province.description || "Explore this destination."}</p>
                 <a href="explore.html?province=${encodeURIComponent(province.name)}" class="plan-btn">
                     Plan Trip
                 </a>
             </div>
         `;
 
-        // Heart button toggle logic
-        card.querySelector(".heart-btn").addEventListener("click", (e) => {
+        const heartBtn = card.querySelector(".heart-btn");
+        heartBtn.addEventListener("click", (e) => {
             e.preventDefault();
-            const btn = e.currentTarget;
-            const name = btn.dataset.name;
-            const saved = JSON.parse(localStorage.getItem("sabaytrip_favs") || "[]");
 
-            if (saved.includes(name)) {
-                const updated = saved.filter(n => n !== name);
-                localStorage.setItem("sabaytrip_favs", JSON.stringify(updated));
-                btn.textContent = "♡";
-                btn.classList.remove("loved");
-                btn.classList.add("not-loved");
+            let saved = JSON.parse(localStorage.getItem("sabaytrip_favs") || "[]");
+
+            if (saved.includes(province.name)) {
+                saved = saved.filter(n => n !== province.name);
+                heartBtn.textContent = "♡";
+                heartBtn.classList.remove("loved");
             } else {
-                saved.push(name);
-                localStorage.setItem("sabaytrip_favs", JSON.stringify(saved));
-                btn.textContent = "♥";
-                btn.classList.remove("not-loved");
-                btn.classList.add("loved");
+                saved.push(province.name);
+                heartBtn.textContent = "♥";
+                heartBtn.classList.add("loved");
             }
 
-            applyFilters(); 
+            localStorage.setItem("sabaytrip_favs", JSON.stringify(saved));
         });
-        
-        grid.appendChild(card);
 
+        grid.appendChild(card);
     });
 };
 
 const applyFilters = () => {
-    let filteredProvinces = provinces;
-    
+    let filtered = provinces;
+
+    // Search
     if (searchText !== "") {
-        filteredProvinces = filteredProvinces.filter(province => {
-            return province.name.toLowerCase().includes(searchText.toLowerCase());
-        });
+        filtered = filtered.filter(p =>
+            p.name.toLowerCase().includes(searchText.toLowerCase())
+        );
     }
-    
+
     if (currentFilter !== "all") {
+
         if (currentFilter === "popular") {
-            filteredProvinces = filteredProvinces.filter(province => {
-                return province.tag === "Most Popular";
-            });
+            filtered = filtered.filter(p => p.tag === "Most Popular");
         }
+
         else if (currentFilter === "coastal") {
-            filteredProvinces = filteredProvinces.filter(province => {
-                const coastalList = ["Sihanoukville", "Kampot", "Kep", "Koh Kong"];
-                return coastalList.includes(province.name);
-            });
+            const coastal = ["Sihanoukville", "Kampot", "Kep", "Koh Kong"];
+            filtered = filtered.filter(p => coastal.includes(p.name));
         }
+
         else if (currentFilter === "nature") {
-            filteredProvinces = filteredProvinces.filter(province => {
-                const natureList = ["Mondulkiri", "Ratanakiri", "Kratie", "Kampong Speu", "Stung Treng", "Pursat", "Pailin"];
-                return natureList.includes(province.name);
-            });
+            const nature = ["Mondulkiri", "Ratanakiri", "Kratie"];
+            filtered = filtered.filter(p => nature.includes(p.name));
         }
+
         else if (currentFilter === "city") {
-            filteredProvinces = filteredProvinces.filter(province => {
-                const cityList = ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville", "Kampot", "Svay Rieng"];
-                return cityList.includes(province.name);
-            });
+            const city = ["Phnom Penh", "Siem Reap", "Battambang"];
+            filtered = filtered.filter(p => city.includes(p.name));
         }
     }
-    displayProvinces(filteredProvinces);
+
+    displayProvinces(filtered);
 };
 
-window.addEventListener('scroll', () => {
-    const nav = document.querySelector('nav');
-    if (window.scrollY > 50) {
-        nav.classList.add('scrolled');
-    } else {
-        nav.classList.remove('scrolled');
-    }
-});
-
 searchForm.addEventListener("submit", (e) => {
-    e.preventDefault(); 
-    
-    const searchValue = searchInput.value.trim();
-    if (searchValue === "") {
-        alert("Please enter a province name");
-        return;
-    }
-    searchText = searchValue;
-    applyFilters(); 
+    e.preventDefault();
+    searchText = searchInput.value.trim();
+    applyFilters();
 });
 
-let timer;
 searchInput.addEventListener("input", () => {
-    clearTimeout(timer);
+    searchText = searchInput.value.trim();
+    applyFilters();
 
-    if (searchInput.value.trim() !== "") {
-        clearBtn.classList.add("visible");
-    } else {
-        clearBtn.classList.remove("visible");
-    }
-
-    timer = setTimeout(() => {
-        searchText = searchInput.value.trim();
-        applyFilters();
-    }, 300);
+    clearBtn.classList.toggle("visible", searchText !== "");
 });
 
 clearBtn.addEventListener("click", () => {
@@ -359,29 +296,32 @@ clearBtn.addEventListener("click", () => {
     applyFilters();
 });
 
-chips.forEach((chip) => {
+chips.forEach(chip => {
     chip.addEventListener("click", () => {
         chips.forEach(c => c.classList.remove("active"));
         chip.classList.add("active");
+
         currentFilter = chip.dataset.filter;
         applyFilters();
     });
 });
 
 window.addEventListener("scroll", () => {
-    const shouldShow = window.scrollY > 300;
-    toTopBtn.classList.toggle("show", shouldShow);
+    document.querySelector("nav")
+        .classList.toggle("scrolled", window.scrollY > 50);
+
+    toTopBtn.classList.toggle("show", window.scrollY > 300);
 });
 
 toTopBtn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+    initHeroSlider();
+    loadProvinces();
 });
 
 window.addEventListener("load", () => {
     document.body.classList.add("loaded");
 });
-
-loadProvinces();
